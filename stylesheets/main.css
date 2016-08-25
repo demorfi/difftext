@@ -1,0 +1,31 @@
+/**
+ * DiffText.
+ * User: demorfi@gmail.com
+ */
+
+#diffResult
+{
+    cursor : default;
+}
+
+#diffResult > div span.new-line
+{
+    display : inline-block;
+    width   : 5px;
+}
+
+.offer-remove
+{
+    background : rgba(255, 0, 0, .5);
+}
+
+.offer-change
+{
+    background  : rgba(255, 255, 0, .5);
+    white-space : pre-wrap;
+}
+
+.offer-add
+{
+    background : rgba(173, 255, 47, .5);
+}
